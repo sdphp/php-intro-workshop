@@ -1,10 +1,12 @@
 <?php
-
-$original = rand(1, 10000);
-print $original.PHP_EOL;
-$x = $original + 5;
-$x = 2 * $x;
-$x = $x - 4;
-$x = $x / 2;
-$result = $x - $original;
-print $result. PHP_EOL;
+/**
+ * @TODO
+ * Write a program that does the following:
+ * Choose a number between 1 and 10 
+ * Assign that number to the variable $x
+ * Add five to $x
+ * Double the result
+ * Subtract 4
+ * Divide by 2
+ * Subtract the original number
+ */ 
