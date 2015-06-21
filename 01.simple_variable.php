@@ -6,4 +6,4 @@ $x = 30;
 $y = 1.123;
 
 // print the values below
-print "";
+print "$name";

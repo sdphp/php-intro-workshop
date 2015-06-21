@@ -8,7 +8,13 @@ print "3".PHP_EOL;
 // ...
 print "10".PHP_EOL;
 
+$counter = 1;
+while ($counter <= 10) {
+    print $counter;
+    $counter = $counter + 1;
+}
+
 // with loops
-for($i = 1; $i <= 10; $i++) {
-    print "I'm using a loop, my current count is $i".PHP_EOL;
+for($counter = 1; $counter <= 10; $counter = $counter + 1) {
+    print $counter.PHP_EOL;
 }
